@@ -23,6 +23,15 @@ opencv-python = "^4.10.0.84"
 numba = "^0.60.0"
 numpy = ">=1.22,<2.1"
 scikit-surprise = "^1.1.4"
+transformers = {version = ">=4.37.0", extras = ["torch"]}
+datasets = "^3.2.0"
+sacremoses = "^0.1.1"
+accelerate = ">=0.26.0"
+evaluate = "^0.4.3"
+protobuf = "^5.29.3"
+tiktoken = "^0.8.0"
+peft = "^0.14.0"
+blobfile = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core"]
