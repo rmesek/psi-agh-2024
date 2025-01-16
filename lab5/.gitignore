@@ -1,4 +1,6 @@
 output/
+output-qa/
+output_qa/
 question-context-classification/
 question-answer/
 poquad-dev.json
