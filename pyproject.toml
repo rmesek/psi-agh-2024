@@ -21,7 +21,7 @@ torch = "^2.5.1"
 torchvision = "^0.20.1"
 opencv-python = "^4.10.0.84"
 numba = "^0.60.0"
-numpy = ">=1.22,<2.1"
+numpy = "<2"
 scikit-surprise = "^1.1.4"
 transformers = {version = ">=4.37.0", extras = ["torch"]}
 datasets = "^3.2.0"
